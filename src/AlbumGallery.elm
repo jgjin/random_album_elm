@@ -80,13 +80,13 @@ slidify album =
                 ]
                 []
             ]
-        , h2 [ simpleClassList [ "h2", "mb-1", "font-weight-normal" ] ]
+        , h2 [ simpleClassList [ "h2", "mb-1", "font-weight-normal", "w-75" ] ]
             [ text album.name
             ]
-        , h5 [ simpleClassList [ "h5", "mb-1", "font-weight-normal" ] ]
+        , h5 [ simpleClassList [ "h5", "mb-1", "font-weight-normal", "w-75" ] ]
             [ text album.artists
             ]
-        , p [ simpleClassList [ "mb-1", "text-muted" ] ]
+        , p [ simpleClassList [ "mb-1", "text-muted", "w-75" ] ]
             [ text album.copyright
             ]
         ]
