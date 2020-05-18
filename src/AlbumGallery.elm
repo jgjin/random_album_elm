@@ -69,7 +69,10 @@ simpleClassList classes =
 slidify : Album -> Html msg
 slidify album =
     div [ simpleClassList [ "album-card" ] ]
-        [ a [ href album.external_url ]
+        [ a
+            [ href album.external_url
+            , target "_blank"
+            ]
             [ img
                 [ simpleClassList [ "mb-2", "album-image" ]
                 , src album.image_url
